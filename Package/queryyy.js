@@ -12,9 +12,4 @@ const db = require('gun')();
 
 const noderesult = db.get('Enter UAK/URK/MDT').once(v =>{
         console.log(v)
-        });
-
-
-
-
-
+});
